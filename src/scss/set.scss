@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   color: $black; // цвет по умолчанию текста по сайту
-  background-color: $white;
+  background-color: $bodyColor;
 }
 
 input,
@@ -132,7 +132,7 @@ input[type='number'] {
   }
 
   .container {
-    padding: 0 4rem; // в моб версии отступ от края задаем для всех контейнеров, а там где не нужно можем точечно убрать
+    padding: 0 3.2rem; // в моб версии отступ от края задаем для всех контейнеров, а там где не нужно можем точечно убрать
     width: 100%;
   }
 }
