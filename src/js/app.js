@@ -31,6 +31,6 @@ import './utils/select.js';
 // ------------------------------- own scripts ------------------------------
 
 import './dev/markusDM.js';
-import './dev/ana.js';
+import './dev/nastiaCandor.js';
 
 

@@ -31,7 +31,9 @@ export function formFieldsInit(options = { viewPass: false }) {
         targetElement.classList.add('_form-focus');
         targetElement.parentElement.classList.add('_form-focus');
       }
-      targetElement.closest('.input').classList.remove('_filled');
+      if (targetElement.closest('.input')) {
+        targetElement.closest('.input').classList.remove('_filled');
+      }
       formValidate.removeError(targetElement);
     }
   });
@@ -60,7 +62,9 @@ export function formFieldsInit(options = { viewPass: false }) {
         !targetElement.classList.contains('_form-error') &&
         targetElement.value.trim()
       ) {
-        targetElement.closest('.input').classList.add('_filled');
+        if (targetElement.closest('.input')) {
+          targetElement.closest('.input').classList.add('_filled');
+        }
       } else {
         targetElement.closest('.input').classList.remove('_filled');
       }
