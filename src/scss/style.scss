@@ -38,12 +38,16 @@ body {
 
 // main
 main {
-    padding-top: 2.4rem;
-    @media (max-width: 48em) {
-        main {
-            padding-top: 4.8rem;
-        }
-    }
+    // padding-top: 2.4rem;
+    // @media (max-width: 48em) {
+    //     main {
+    //         padding-top: 4.8rem;
+    //     }
+    // }
+}
+
+section {
+  padding: 15rem 0;
 }
 
 // --------------------------------------------------------------------------
