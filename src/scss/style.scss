@@ -38,10 +38,10 @@ body {
 
 // main
 main {
-    padding-top: 6.7rem;
+    padding-top: 2.4rem;
     @media (max-width: 48em) {
         main {
-            padding-top: 12.6rem;
+            padding-top: 4.8rem;
         }
     }
 }
@@ -56,6 +56,6 @@ main {
 
 // --------------------------------------------------------------------------
 
-@import './dev/ana.scss';
+@import './dev/nastiaCandor';
 @import './dev/markusDM.scss';
 
